@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/shreenagari/static/css/main.5f361e03.chunk.css",
-    "main.js": "/shreenagari/static/js/main.56c8d359.chunk.js",
-    "main.js.map": "/shreenagari/static/js/main.56c8d359.chunk.js.map",
+    "main.js": "/shreenagari/static/js/main.34da8ffe.chunk.js",
+    "main.js.map": "/shreenagari/static/js/main.34da8ffe.chunk.js.map",
     "runtime-main.js": "/shreenagari/static/js/runtime-main.c7ce05fe.js",
     "runtime-main.js.map": "/shreenagari/static/js/runtime-main.c7ce05fe.js.map",
-    "static/js/2.c30cf950.chunk.js": "/shreenagari/static/js/2.c30cf950.chunk.js",
-    "static/js/2.c30cf950.chunk.js.map": "/shreenagari/static/js/2.c30cf950.chunk.js.map",
+    "static/js/2.bf975824.chunk.js": "/shreenagari/static/js/2.bf975824.chunk.js",
+    "static/js/2.bf975824.chunk.js.map": "/shreenagari/static/js/2.bf975824.chunk.js.map",
     "index.html": "/shreenagari/index.html",
-    "precache-manifest.0c187d49604070eae8f60a9cfed8ddc3.js": "/shreenagari/precache-manifest.0c187d49604070eae8f60a9cfed8ddc3.js",
+    "precache-manifest.3810658c0fd5f02aad122bc1d2b5c701.js": "/shreenagari/precache-manifest.3810658c0fd5f02aad122bc1d2b5c701.js",
     "service-worker.js": "/shreenagari/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/shreenagari/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.c30cf950.chunk.js.LICENSE.txt": "/shreenagari/static/js/2.c30cf950.chunk.js.LICENSE.txt",
+    "static/js/2.bf975824.chunk.js.LICENSE.txt": "/shreenagari/static/js/2.bf975824.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/shreenagari/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c7ce05fe.js",
-    "static/js/2.c30cf950.chunk.js",
+    "static/js/2.bf975824.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.56c8d359.chunk.js"
+    "static/js/main.34da8ffe.chunk.js"
   ]
 }
