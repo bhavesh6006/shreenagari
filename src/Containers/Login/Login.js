@@ -13,6 +13,8 @@ import Container from '@material-ui/core/Container';
 import _ from 'lodash';
 import { withStyles } from '@material-ui/core/styles';
 import Logo from '../../assets/images/logo.jpg';
+import LoginDetails from '../../JSONFiles/login.json';
+import Snackbar from '../../Components/Snackbar/Snackbar';
 
 const style = {
     "loginContainer": {
@@ -51,20 +53,120 @@ class Login extends Component {
                     isError: false,
                     errorMessage: "Field is mandatory"
                 }
-            }
+            },
+            isLoginButtonDisabled: true,
+            showLoginErrorMessage: false,
+            loginErrorMessage: "User Name or Password is invalid.",
+            showLoader: false
         };
+    }
+
+    componentDidMount() {
+        console.log('LoginDetails: ', LoginDetails);
+    }
+
+    handleChange = async (e, fieldName) => {
+        let fieldValue = e.target.value;
+        await this.setState({ [fieldName]: fieldValue });
+        this.validateFields(e, fieldName);
+    }
+
+    validateFields = (e, fieldName) => {
+        let { username, password } = _.cloneDeep(this.state);
+        let { errors } = _.cloneDeep(this.state);
+
+        username = username.trim();
+        password = password.trim();
+
+        switch (fieldName) {
+            case "username":
+                if (username.length === 0) {
+                    errors['username'].isError = true;
+                    errors['username'].errorMessage = "Field is mandatory"
+                } else {
+                    errors['username'].isError = false;
+                }
+                break;
+
+            case "password":
+                if (password.length === 0) {
+                    errors['password'].isError = true;
+                    errors['password'].errorMessage = "Field is mandatory"
+                } else {
+                    errors['password'].isError = false;
+                }
+                break;
+
+            default:
+                break;
+        }
+
+        const isLoginButtonDisabled = (username.length && password.length) ? false : true;
+        this.setState({
+            errors,
+            isLoginButtonDisabled: isLoginButtonDisabled
+        });
+    }
+
+    validateLoginForm = () => {
+        const {
+            username,
+            password
+        } = _.cloneDeep(this.state);
+
+        if (username === LoginDetails.userName && password === LoginDetails.password) {           
+            this.setState({
+                showLoader: true
+            });
+
+            const callBack = () => {
+                localStorage.setItem("userid", LoginDetails.id);
+                window.location.reload();
+            }
+            setTimeout(
+                function () {
+                    callBack();
+                }, 4000
+            );
+        } else {
+            this.setState({
+                showLoginErrorMessage: true
+            });
+        }
+    }
+
+    onCloseSnackBar = () => {
+        this.setState({
+            showLoginErrorMessage: false
+        });
     }
 
     render() {
         const {
             username,
             password,
-            errors
+            errors,
+            isLoginButtonDisabled,
+            showLoginErrorMessage,
+            loginErrorMessage,
+            showLoader
         } = _.cloneDeep(this.state);
         const { classes } = this.props;
 
         return (
             <Container maxWidth="sm" className={classes.loginContainer}>
+                {
+                    showLoginErrorMessage ? (
+                        <Snackbar
+                            message={loginErrorMessage}
+                            open={true}
+                            duration={4000}
+                            closeSnackBar={this.onCloseSnackBar}
+                            variant={'error'}
+                        />
+                    ) : null
+                }
+
                 <Paper className={classes.paper}>
                     <Grid container spacing={2}>
 
@@ -95,12 +197,13 @@ class Login extends Component {
                                 size="small"
                                 required
                                 name='password'
-                                value={username}
+                                value={password}
                                 onChange={(e) => this.handleChange(e, "password")}
                                 className='text-field'
                                 helperText={errors['password'].isError ? errors['password'].errorMessage : ""}
                                 error={errors['password'].isError}
                                 fullWidth
+                                type='password'
                             />
                         </Grid>
 
@@ -110,8 +213,17 @@ class Login extends Component {
                                 color="primary"
                                 type="button"
                                 className={classes.loginButton}
+                                disabled={showLoader || isLoginButtonDisabled}
+                                onClick={() => this.validateLoginForm()}
                             >
                                 Login
+                                {
+                                    showLoader ? (
+                                        <Box>
+                                            <CircularProgress size={20} />
+                                        </Box>
+                                    ) : null
+                                }
                             </Button>
                         </Grid>
                     </Grid>

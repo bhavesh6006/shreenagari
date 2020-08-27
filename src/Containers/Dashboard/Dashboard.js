@@ -4,7 +4,7 @@ import Login from '../Login/Login';
 
 class Dashboard extends Component {
     render() {
-        const isLogin = localStorage.getItem('isLogin');
+        const isLogin = localStorage.getItem('userid');
 
         if (!isLogin) {
             return (<Login />);
