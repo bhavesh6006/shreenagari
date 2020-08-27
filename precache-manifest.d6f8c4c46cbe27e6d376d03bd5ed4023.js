@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37c6a723b6ca663a632da708ce3da733",
+    "revision": "1db46295129259aed7cfac1361bc1ebb",
     "url": "/shreenagari/index.html"
   },
   {
-    "revision": "b4fe10185736a5199721",
+    "revision": "19ccf9161781a43c1ebc",
     "url": "/shreenagari/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "a93a691b0b7cbbfd9f5e",
-    "url": "/shreenagari/static/js/2.bf975824.chunk.js"
+    "revision": "a86ce414d5b7ecd39cfd",
+    "url": "/shreenagari/static/js/2.adab0c37.chunk.js"
   },
   {
-    "revision": "68ba00d5eb083746d913686923a3d904",
-    "url": "/shreenagari/static/js/2.bf975824.chunk.js.LICENSE.txt"
+    "revision": "e3cddcc14d0b349b4e6eccba623e55ae",
+    "url": "/shreenagari/static/js/2.adab0c37.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b4fe10185736a5199721",
-    "url": "/shreenagari/static/js/main.34da8ffe.chunk.js"
+    "revision": "19ccf9161781a43c1ebc",
+    "url": "/shreenagari/static/js/main.828743c1.chunk.js"
   },
   {
     "revision": "3f5bb46cfae6a19bcd86",
