@@ -2,14 +2,14 @@
     margin-top: 65px;
     border: 1px solid #dedede;
     border-radius: 5px;
-    height: calc(100vh - 104px);
+    height: calc(100vh - 105px);
     margin-bottom: 2px;
 }
 
 footer {
     background: black;
     height: 33px;
-    padding-top: 2px;  
+    padding-top: 3px;  
 }
 
 footer span {
