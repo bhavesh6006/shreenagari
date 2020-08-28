@@ -26,3 +26,28 @@ footer span {
 .logout-container {
     padding: 10px;
 }
+
+.dashbord-container {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+@media (max-width: 960px) {
+    .tab-panel{
+        width: 94% !important;
+    }
+}
+
+.tab-panel {
+    width: 98%;
+    height: calc(100vh - 200px);
+    overflow-y: auto;
+    border-radius: 10px;
+    border: 0.2px solid #f5f5f5;
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+.app-bar-header {
+    background-color: #FFF !important;
+    border-radius: 10px;
+}
