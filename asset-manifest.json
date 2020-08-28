@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shreenagari/static/css/main.64ff96c8.chunk.css",
+    "main.css": "/shreenagari/static/css/main.5bf0c97a.chunk.css",
     "main.js": "/shreenagari/static/js/main.77ba123d.chunk.js",
     "main.js.map": "/shreenagari/static/js/main.77ba123d.chunk.js.map",
     "runtime-main.js": "/shreenagari/static/js/runtime-main.c7ce05fe.js",
@@ -8,15 +8,15 @@
     "static/js/2.8651b06d.chunk.js": "/shreenagari/static/js/2.8651b06d.chunk.js",
     "static/js/2.8651b06d.chunk.js.map": "/shreenagari/static/js/2.8651b06d.chunk.js.map",
     "index.html": "/shreenagari/index.html",
-    "precache-manifest.26d38c5c124b1ac2b9cab532e4541f6d.js": "/shreenagari/precache-manifest.26d38c5c124b1ac2b9cab532e4541f6d.js",
+    "precache-manifest.0efcf2406667e8861dd044cde428b772.js": "/shreenagari/precache-manifest.0efcf2406667e8861dd044cde428b772.js",
     "service-worker.js": "/shreenagari/service-worker.js",
-    "static/css/main.64ff96c8.chunk.css.map": "/shreenagari/static/css/main.64ff96c8.chunk.css.map",
+    "static/css/main.5bf0c97a.chunk.css.map": "/shreenagari/static/css/main.5bf0c97a.chunk.css.map",
     "static/js/2.8651b06d.chunk.js.LICENSE.txt": "/shreenagari/static/js/2.8651b06d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c7ce05fe.js",
     "static/js/2.8651b06d.chunk.js",
-    "static/css/main.64ff96c8.chunk.css",
+    "static/css/main.5bf0c97a.chunk.css",
     "static/js/main.77ba123d.chunk.js"
   ]
 }
