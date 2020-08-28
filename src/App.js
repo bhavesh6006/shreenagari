@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Dashboard from '../src/Containers/Dashboard/Dashboard';
+import './common.css';
 
 function App() {
   return (

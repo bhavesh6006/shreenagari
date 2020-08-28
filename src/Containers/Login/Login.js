@@ -5,9 +5,7 @@ import {
     CircularProgress,
     Box,
     Button,
-    Link,
-    Paper,
-    Typography
+    Paper
 } from '@material-ui/core';
 import Container from '@material-ui/core/Container';
 import _ from 'lodash';

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Container from '@material-ui/core/Container';
 import Login from '../Login/Login';
+import Layout from '../Layout/Layout';
 
 class Dashboard extends Component {
     render() {
@@ -11,9 +12,11 @@ class Dashboard extends Component {
         }
 
         return(
-            <Container maxWidth="md">
-                <h2>Welcome to Shree Nagari Society...!</h2>
-            </Container>
+            <Layout>
+                <Container maxWidth="md">
+                    <h2>Welcome to Shree Nagari Society...!</h2>
+                </Container>
+            </Layout>
         )
     }
 }

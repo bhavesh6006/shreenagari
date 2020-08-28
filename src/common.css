@@ -1,0 +1,26 @@
+.main-container {
+    margin-top: 65px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    height: calc(100vh - 100px);
+}
+
+footer {
+    background: black;
+    height: 33px;    
+}
+
+footer span {
+    vertical-align: middle;
+    color: #FFF;
+}
+
+.header-profile-icon {
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.logout-container {
+    padding: 10px;
+}
