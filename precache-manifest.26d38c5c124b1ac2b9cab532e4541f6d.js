@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a069677b0f7c96d0899ad40e53954d17",
+    "revision": "8e965561bfc5cbeb9c75a2979fc587d0",
     "url": "/shreenagari/index.html"
   },
   {
-    "revision": "0438c21869e8706adfdf",
-    "url": "/shreenagari/static/css/main.dc6f6f13.chunk.css"
+    "revision": "ecaf40cc7aa7f6d495c7",
+    "url": "/shreenagari/static/css/main.64ff96c8.chunk.css"
   },
   {
     "revision": "07d382497b70a47723db",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/shreenagari/static/js/2.8651b06d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0438c21869e8706adfdf",
+    "revision": "ecaf40cc7aa7f6d495c7",
     "url": "/shreenagari/static/js/main.77ba123d.chunk.js"
   },
   {
