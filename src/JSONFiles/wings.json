@@ -1,0 +1,61 @@
+{
+    "wings": [
+        {
+            "wingName": "A WING",
+            "contactDetails": [
+                {
+                    "name": "Tushar Mawal",
+                    "mobileNumber": "9595767996"
+                }
+            ]
+        },
+        {
+            "wingName": "B WING",
+            "contactDetails": [
+                {
+                    "name": "Pandurang Jadhav",
+                    "mobileNumber": "9850885814"
+                }
+            ]
+        },
+        {
+            "wingName": "C WING",
+            "contactDetails": [
+                {
+                    "name": "Bhavesh Shah",
+                    "mobileNumber": "9765633647 / 7620860998"
+                },
+                {
+                    "name": "Upendra Thakare",
+                    "mobileNumber": "9823834486"
+                }
+            ]
+        },
+        {
+            "wingName": "D WING",
+            "contactDetails": [
+                {
+                    "name": "Amol Raut",
+                    "mobileNumber": "9765492631"
+                },
+                {
+                    "name": "Balchandra Murkute",
+                    "mobileNumber": "9881479193"
+                }
+            ]
+        },
+        {
+            "wingName": "E WING",
+            "contactDetails": [
+                {
+                    "name": "Sachin Khatavkar",
+                    "mobileNumber": "9970066533"
+                },
+                {
+                    "name": "Harpreet Mehta",
+                    "mobileNumber": "9970769014"
+                }
+            ]
+        }
+    ]
+}

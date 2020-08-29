@@ -11,6 +11,7 @@ import HomeWorkIcon from '@material-ui/icons/HomeWork';
 import AccountBalanceWalletIcon from '@material-ui/icons/AccountBalanceWallet';
 import EventIcon from '@material-ui/icons/Event';
 import _ from 'lodash';
+import FlatDetails from '../FlatDetails/FlatDetails';
 
 const style = {
     tabpanel: {
@@ -94,7 +95,7 @@ class Dashboard extends Component {
                     </AppBar>
                     
                     <TabPanel value={value} index={0} className={classes.tabpanel + ' tab-panel' }>
-                        <h2>Comming soon....!</h2>
+                        <FlatDetails />
                     </TabPanel>
 
                     <TabPanel value={value} index={1} className={classes.tabpanel + ' tab-panel'}>

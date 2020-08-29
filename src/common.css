@@ -50,3 +50,34 @@ footer span {
     background-color: #FFF !important;
     border-radius: 10px;
 }
+
+.person-icon {
+    font-size: 20px !important;
+    margin-right: 5px;
+}
+
+.contact-icon {
+    font-size: 20px !important;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+.wing-text {
+    border-bottom: 1px solid;
+}
+
+.wing-person-container {
+    display: flex;
+}
+
+.wing-contact-container {
+    display: flex;
+}
+
+.wing-card-action {
+    border-top: 1px solid #dedede;
+}
+
+.wing-card-grid {
+    width: 100%
+}
