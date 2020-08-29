@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Logo from '../../assets/images/logo.jpg';
 import {
     Grid,
     Avatar,
     Popover,
-    Button
+    Button,
+    Typography
 } from '@material-ui/core';
 
 const style = {
@@ -26,11 +26,16 @@ const style = {
     },
     redColor: {
         color: 'red',
-        fontWeight: "bold"
+        fontWeight: "bold",
+        fontSize: '11px'
     },
     normalColor: {
         color: "black",
-        fontSize: "14px"
+        fontSize: "7px"
+    },
+    societyNameContainer: {
+        float: 'left',
+        width: '86%'
     }
 };
 
@@ -66,7 +71,19 @@ class Header extends Component {
                 <AppBar position="fixed" className={classes.header}>
                     <Toolbar className='header'>
                         <Grid className='header-wrapper' item xs={12}>
-                            <img src={Logo} alt={Logo} className={classes.img} />
+                            <div className={classes.societyNameContainer}>
+                                <Typography className={classes.redColor}>
+                                    SHREE NAGARI CO-OP. HOUSING SOCIETY PVT. LTD.
+                                </Typography>
+
+                                <Typography className={classes.normalColor}>
+                                    Sr. No. 24 / 8 & 24 / 8 / 2, Road No. 7, Munjaba Vasti, Dhanori, Pune - 411015.
+                                </Typography>
+
+                                <Typography className={classes.normalColor}>
+                                    Reg. No.: PNA / PNA(5) / HSG(TC) / 16236 / 2014 - 2015
+                                </Typography>
+                            </div>
                             <Avatar className="header-profile-icon" onClick={(e) => this.handleClick(e)}></Avatar>
 
                             <Popover
