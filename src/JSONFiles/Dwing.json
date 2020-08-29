@@ -1,0 +1,144 @@
+{
+    "flats": [
+        {
+            "id": 101,
+            "displayName": "101",
+            "ownerName": "SUNITA V. YEREKAR",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 102,
+            "displayName": "102",
+            "ownerName": "REGINA AMIT NIKALJE",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 103,
+            "displayName": "103",
+            "ownerName": "SUJATA A. AMBOLIKAR",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 104,
+            "displayName": "104",
+            "ownerName": "SURESH B. CHEMATE",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 201,
+            "displayName": "201",
+            "ownerName": "MRS. POOJA V. SONAWANE",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 202,
+            "displayName": "202",
+            "ownerName": "AVINASH M. BHOSALE",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 203,
+            "displayName": "203",
+            "ownerName": "ATISH A. OVHAL",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 204,
+            "displayName": "204",
+            "ownerName": "RAJESH N. HILE",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 301,
+            "displayName": "301",
+            "ownerName": "PRASAD D. UNDALE",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 302,
+            "displayName": "302",
+            "ownerName": "SWAPNIL S. KULKARNI",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 303,
+            "displayName": "303",
+            "ownerName": "FATIMA DCRUZ",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 304,
+            "displayName": "304",
+            "ownerName": "VISHWANATH G. HULYALKAR",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 401,
+            "displayName": "401",
+            "ownerName": "VISHAL N. SAXENA",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 402,
+            "displayName": "402",
+            "ownerName": "ROHINI G. KHATAVKAR",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 403,
+            "displayName": "403",
+            "ownerName": "BALCHANDRA M. MURKUTE",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 404,
+            "displayName": "404",
+            "ownerName": "AMOL D. RAUT",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 501,
+            "displayName": "501",
+            "ownerName": "GANESH D. JANGAM",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 502,
+            "displayName": "502",
+            "ownerName": "SIBA N. PANDA",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 503,
+            "displayName": "503",
+            "ownerName": "ASHUTOSH S. SONAWANE",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 504,
+            "displayName": "504",
+            "ownerName": "VISHAL R. MHASKAR",
+            "mobileNumber": "NA",
+            "email": "NA"
+        }
+    ]
+}

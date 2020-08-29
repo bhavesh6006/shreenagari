@@ -81,3 +81,12 @@ footer span {
 .wing-card-grid {
     width: 100%
 }
+
+.page-back--link{
+    cursor: pointer;
+    display: flex;   
+}
+
+.page-back-row {
+    margin-bottom: 10px;
+}

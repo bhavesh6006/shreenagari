@@ -1,0 +1,144 @@
+{
+    "flats": [
+        {
+            "id": 101,
+            "displayName": "101",
+            "ownerName": "ANIL T. MANALI",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 102,
+            "displayName": "102",
+            "ownerName": "SANGITA R. JAGTAP",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 103,
+            "displayName": "103",
+            "ownerName": "UPENDRA B. THAKARE",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 104,
+            "displayName": "104",
+            "ownerName": "SUBHASH S. BABAR",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 201,
+            "displayName": "201",
+            "ownerName": "ATMARAM R. NAIK",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 202,
+            "displayName": "202",
+            "ownerName": "HEERA A. NIRMAL",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 203,
+            "displayName": "203",
+            "ownerName": "VEERANNA B. UPPIN",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 204,
+            "displayName": "204",
+            "ownerName": "B.R. CHEMATE",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 301,
+            "displayName": "301",
+            "ownerName": "BALU C. CHAUDHARI",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 302,
+            "displayName": "302",
+            "ownerName": "BHARGAVKUMAR J. JANI",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 303,
+            "displayName": "303",
+            "ownerName": "ATUL & GAYATRI KHAPATE",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 304,
+            "displayName": "304",
+            "ownerName": "BHAVESH SHAH",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 401,
+            "displayName": "401",
+            "ownerName": "BHAGWAN PATIL",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 402,
+            "displayName": "402",
+            "ownerName": "AJANSINGH YADAV",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 403,
+            "displayName": "403",
+            "ownerName": "VIKAS G. HIREKUMBI",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 404,
+            "displayName": "404",
+            "ownerName": "MOHAN S. CHAVAN",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 501,
+            "displayName": "501",
+            "ownerName": "DATTATRAY JAGTAP",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 502,
+            "displayName": "502",
+            "ownerName": "BISHWARUP CHAKRABORTY",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 503,
+            "displayName": "503",
+            "ownerName": "NILESH PAWAR",
+            "mobileNumber": "NA",
+            "email": "NA"
+        },
+        {
+            "id": 504,
+            "displayName": "504",
+            "ownerName": "GOURI S. WAGHACHAURE",
+            "mobileNumber": "NA",
+            "email": "NA"
+        }
+    ]
+}
